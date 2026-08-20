@@ -1,48 +1,100 @@
 h1{
     text-align: center;
-    color: #f1f6f6;
+    color: #00ff87;
+    letter-spacing: 5px;
+    text-shadow: 0 0 10px #000000, 0 0 20px #718d80, 0 0 30px #5ca988;
 }
 
 
 body
 {
-    background-color: #636161a8;
-    color: #000000;
+    background-color: #1a1a1a;
+    color: #f9f2f2;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 1%;
+    padding: 40px;
 
 }
 
  h2, h3 {
    font-family: 'Geneva', sans-serif;
-   color: #191f45;
+   color: #e4dede;
  }
 
-  section{
+ section {
     margin-bottom: 10px;
     padding: 5px;
-  }
+    border-bottom: 1px solid #5a575749;
+}
 .depoimento {
-    font-family: impact;
-    font-style: italic;
+    font-family: Open Sans;
+    color: #00ff87;
 }
 
-p{
-    line-height: 1.0;
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
 }
-p{
-    margin-bottom: 5px;
-}
+
 dt{
     font-weight: bold;
-    color: #191f45;
+    color: #f1f1f1;
 }
 dd{ 
     margin-left: 20px;
-    color: #17193f;
-    font-style: italic;
+    color: #f1f1f1;
+    
      font-family: System
 }
+code{
+    color: #00ff87;
+}
+img{
+    border-radius: 34px;
+    box-shadow: 0 4px 8px rgba(28, 232, 9, 0.242);
+    object-fit: cover;
+}
+mark{
+    color:#000000;
+}
+a{
+    color: #00ff87;
+    text-decoration: none;
+}
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+    header{
+         max-width: 800px;
+    margin: 0 auto;
+    }
+    footer{
+         max-width: 800px;  
+ margin: 0 auto;}
+ .botão{
 
-
-
+    background-color: #000000;
+   color: #00ff87;
+    padding: 3px 15px;
+    border-radius: 40px;
+    display: inline-block;
+ }
+a:hover{
+    color: #00ff87;
+    text-decoration: underline;
+}
+.botão:hover{
+    background-color: #00ff87;
+    color: #000000;
+    text-decoration: underline;
+}
+li::marker {
+    color: #00ff87;
+}li::marker {
+        color: #00ff87;
+}
+@media (max-width: 600px) {
+    img {
+        width: 100%;
+    }
+}
